@@ -1,0 +1,2 @@
+# ArtIntel
+Artificial Intelligence Class
