@@ -11,5 +11,5 @@ iris : $(OBJS) iris.cpp
 	$(CXX) $(OBJS) -o iris $(LFLAGS) iris.cpp
 
 clean :
-	rm -f ./*.png $(OBJS)
+	rm -f ./*.png $(OBJS) $(EXECS)
 	rm -rf *~
