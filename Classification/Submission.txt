@@ -1,0 +1,15 @@
+The Types of Iris data, size of the dataset for each type: vector<vector<string>>, converted to double for calculations
+Normalization process: Arithmetic Average
+Distance Algorithm used: Euclidean, Manhattan, Chebyshev
+
+For each data set:
+			Sampling size  <number of elements used for training>: 40
+			Setosa:   	5.0375	3.44	1.4625	0.2325	
+			Versicolor:	6.01	2.78	4.3175	1.35	
+			Virginica:	6.6225	2.96	5.6075	1.99	
+
+Testing
+Process the remaining elements of all three datasets using the three averages to classify the data that was not used in training.
+Determine whether the iris is classified correctly
+Number of correct classificiations: 29
+Number of incorrect classificaiton: 1

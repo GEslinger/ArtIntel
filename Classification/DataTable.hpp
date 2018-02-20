@@ -13,7 +13,7 @@ double getEulerDist(std::vector<double>& v1, std::vector<double>& v2);
 double getManDist(std::vector<double>& v1, std::vector<double>& v2);
 double getChebyDist(std::vector<double>& v1, std::vector<double>& v2);
 
-class DataTable{
+class DataTable{											// DataTable class holds the information from the file
 public:
 	DataTable(std::string fname);
 	std::pair<int,int> getDims();
