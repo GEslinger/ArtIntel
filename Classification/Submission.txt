@@ -13,3 +13,12 @@ Process the remaining elements of all three datasets using the three averages to
 Determine whether the iris is classified correctly
 Number of correct classificiations: 29
 Number of incorrect classificaiton: 1
+
+All of my code is in
+https://github.com/GEslinger/ArtIntel
+
+To clone, run
+git clone https://github.com/GEslinger/ArtIntel.git
+
+To compile run "make" in the Classification directory
+Then, run the main file with ./iris
