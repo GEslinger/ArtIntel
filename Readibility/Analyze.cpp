@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-const string INFILE = "Examples/trump.txt";
+const string INFILE = "Examples/washington.txt";
 
 vector<string> split(const string& s, char delimiter){	// Splits a string
 	vector<string> tokens;

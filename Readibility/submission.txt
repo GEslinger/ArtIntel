@@ -18,4 +18,54 @@ Other than that, it does all the regular stuff.
 Change the INFILE constant at the start to make it look at another file.
 Also, please don't give it files like the examples on canvas without cleaning them up, as they're full of weird characters and crazy newline sequences.
 
-Enjoy!
+Here's what I got for my files.
+
+File: Examples/agriculture.txt
+Average sentence length: 25.7632 words.
+Average syllables per word: 1.7376
+Flesch-Kincaid readability score: 14.9614
+
+File: Examples/annak.txt
+Average sentence length: 20.9365 words.
+Average syllables per word: 1.32237
+Flesch-Kincaid readability score: 8.17923
+
+File: Examples/cplusplus.txt
+Average sentence length: 6.94846 words.
+Average syllables per word: 2.07222
+Flesch-Kincaid readability score: 11.5721
+
+File: Examples/flanny.txt
+Average sentence length: 25.5455 words.
+Average syllables per word: 1.69416
+Flesch-Kincaid readability score: 14.3638
+
+File: Examples/franklin.txt
+Average sentence length: 31.2128 words.
+Average syllables per word: 1.31583
+Flesch-Kincaid readability score: 12.1097
+
+File: Examples/franklin2.txt
+Average sentence length: 31.4 words.
+Average syllables per word: 1.48973
+Flesch-Kincaid readability score: 14.2348
+
+File: Examples/handbook.txt
+Average sentence length: 12.4373 words.
+Average syllables per word: 1.57706
+Flesch-Kincaid readability score: 7.86983
+
+File: Examples/pirate.txt
+Average sentence length: 19.2143 words.
+Average syllables per word: 1.22266
+Flesch-Kincaid readability score: 6.33092
+
+File: Examples/trump.txt
+Average sentence length: 10.2032 words.
+Average syllables per word: 1.28802
+Flesch-Kincaid readability score: 3.58786
+
+File: Examples/washington.txt
+Average sentence length: 37.7764 words.
+Average syllables per word: 1.5739
+Flesch-Kincaid readability score: 17.7149
