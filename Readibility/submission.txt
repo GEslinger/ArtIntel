@@ -1,0 +1,21 @@
+To get my code, run this command in a directory!
+git clone git@github.com:GEslinger/ArtIntel.git
+
+Go into the Readibility directory and run
+make all
+
+Then, run the program with
+./Analyze
+The output will be ASL, ASW, and the Flesch-Kincaid readibility score.
+
+I'm working with a mostly functional syllable recognizer I wrote from scratch. Here are the steps it takes to count syllables:
+Tally up all the vowels and y that occur in the word, to use as a rough estimate of the number of syllables.
+If there's an e towards the end of the word, it might as well be silent so remove that.
+If there's a string of two or more vowels, use a greedy removal function to reduce it to one vowel (ex. ea -> e, ueue -> u)
+Output the number!!
+
+Other than that, it does all the regular stuff.
+Change the INFILE constant at the start to make it look at another file.
+Also, please don't give it files like the examples on canvas without cleaning them up, as they're full of weird characters and crazy newline sequences.
+
+Enjoy!
